@@ -1,9 +1,12 @@
-import React, {Component, useState} from "react";
+import React, { Component, useState } from "react";
 import '../styles/App.css';
 
 const App = () => {
   return (
-    <div id="main"></div>
+    <div id="root">
+      <h1>Welcome to React</h1>
+      <p>I am learning React. My life is getting better.</p>
+    </div>
   )
 }
 
